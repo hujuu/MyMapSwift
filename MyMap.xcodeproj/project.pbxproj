@@ -211,11 +211,12 @@
 			};
 			buildConfigurationList = 6C5CDC702B03926E003CF707 /* Build configuration list for PBXProject "MyMap" */;
 			compatibilityVersion = "Xcode 14.0";
-			developmentRegion = en;
+			developmentRegion = ja;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
+				ja,
 			);
 			mainGroup = 6C5CDC6C2B03926E003CF707;
 			productRefGroup = 6C5CDC762B03926E003CF707 /* Products */;
