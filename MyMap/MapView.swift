@@ -9,11 +9,18 @@ import SwiftUI
 import MapKit
 
 struct MapView: View {
+    let searchKey: String
     var body: some View {
-        Map()
+        Map(){
+            
+        }
+        .onChange(of: searchKey, initial: true) {
+            oldValue, newValue in
+            print("キーワード : \(newValue)")
+        }
     }
 }
 
 #Preview {
-    MapView()
+    MapView(searchKey: "東京駅")
 }
